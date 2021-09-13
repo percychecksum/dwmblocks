@@ -1,4 +1,4 @@
-#define PATH(name)                      "<bricks path>"name
+#define PATH(name)                      "<blocks path>"name
 #define CMDOUTLENGTH                    100
 #define DELIMITERENDCHAR                24
 #define INTERVALs                       1

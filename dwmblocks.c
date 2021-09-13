@@ -17,7 +17,7 @@
 #define DELIMITERLENGTH                 (sizeof delimiter)
 #define STATUSLENGTH                    (LENGTH(blocks) * (CMDOUTLENGTH + DELIMITERLENGTH) + 1)
 
-#define RSPAD				10
+#define RSPAD                           10
 
 #include "config.h"
 
@@ -257,7 +257,7 @@ updatestatus()
                 memcpy(s, block->curtext, block->length);
                 s += block->length;
         }
-	s[s == statustext ? 0 : -DELIMITERLENGTH] = '\0';
+    s[s == statustext ? 0 : -DELIMITERLENGTH] = '\0';
         dirtyblock = NULL;
 
         XStoreName(dpy, DefaultRootWindow(dpy), statustext);
