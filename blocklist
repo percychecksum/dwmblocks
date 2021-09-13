@@ -1,0 +1,20 @@
+- time
+- date
+- keyboard
+- battery
+- brightness/keyboard brightness
+- volume
+- microphone
+(- recording/screenshare)
+- mailbox
+- updates/packages
+- bluetooth
+- wlan/rssi
+- nettraf/vpn/ip-adress
+- cpu/cputemp
+- memory
+- disk
+- music
+- weather
+- todo
+- uptime
